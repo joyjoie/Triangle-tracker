@@ -10,9 +10,9 @@ this project allows one to input numeric values and allows one to do calculation
 ## Known Bugs
 No known bugs
 ##Links
-these are links you may be interested in
-[First project] (https://github.com/joyjoie/projectjoy)
-[My second project] (https://github.com/joyjoie/calculator)
+these are links you may be interested in:
+[First project](https://github.com/joyjoie/projectjoy)
+[My second project](https://github.com/joyjoie/calculator)
 ## Technologies Used
 HTML Javascript and CSS have been used for development
 ## Support and contact details
