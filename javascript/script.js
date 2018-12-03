@@ -13,18 +13,18 @@ else if (Z[0] ===Z[1] || Z[1] === Z[2]||Z[2] ===Z[0]){
   document.getElementById("result").value ="Isosceles"
 }
 else if (Z[0]!= Z[1]!=Z[2]){
-    if (((Z[0] +Z[1])<= Z[2]) ||((Z[1]+Z[2]<= Z[0]) ||((Z[0]+Z[2])<=Z[1]))) {
+    if (((Z[0] + Z[1])<= Z[2]) || ((Z[0] + Z[2]) <= Z[1]) || ((Z[1] + Z[2]) <= Z[0]))
 document.getElementById("result").value ="Not a triangle"
 }
 else {
   document.getElementById("result").value="Scalene"
 }
-}
+ event.preventDefault();
 }
 function resetForm(){
 
   document.getElementById("a").value ="";
   document.getElementById("b").value ="";
-  document.getElementById("a").value ="";
+  document.getElementById("c").value ="";
   document.getElementById("result").value ="";
 }
