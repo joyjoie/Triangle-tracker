@@ -1,17 +1,17 @@
 function process() {
+var Z=["","",""]
+Z[0] = parseInt(document.getElementById("a").value);
+Z[1]= parseInt(document.getElementById("b").value);
+Z[2] = parseInt(document.getElementById("c").value);
 
-var sideA = parseInt(document.getElementById("a").value);
-var sideB = parseInt(document.getElementById("b").value);
-var sideC = parseInt(document.getElementById("c").value);
-
-if(sideA === sideB && sideB === sideC && sideA ===sideC){
+if(Z[0]) === Z[1] && Z[1]=== Z[2] && Z[2] ===Z[0]{
 document.getElementById("result").value = "Equilateral"
 }
-else if (sideA ===sideB || sideB === sideC ||sideC === sideA){
+else if (Z[0] ===Z[1] || Z[1] === Z[2]||Z[2] ===Z[0]{
   document.getElementById("result").value ="Isosceles"
 }
-else if (sideA!= sideB!=sideC){
-    if (((sideA + sideB)<= sideC) ||((sideB+sideC)<= sideA) ||((sideA+sideC)<=sideB)) {
+else if (Z[0]!= Z[1]!=Z[2]){
+    if (((Z[0] +Z[1])<= Z[2]) ||((Z[1]+Z[2]<= Z[0]) ||((Z[0]+Z[2])<=Z[1])) {
 document.getElementById("result").value ="Not a triangle"
 }
 else {
@@ -19,5 +19,6 @@ else {
 }
 }
 function resetForm(){
+
   document.getElementById("button2").value ="";
 }
