@@ -1,4 +1,4 @@
-#Triangle tracker
+# Triangle tracker
 #### By Joy King'oo
 ## Description
 this project allows one to input numeric values and allows one to do calculations to determine what type of triangle it is.
