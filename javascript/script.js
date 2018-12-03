@@ -18,4 +18,6 @@ else {
   document.getElementById("result").value="Scalene"
 }
 }
+function resetForm(){
+  document.getElementById("button2").value ="";
 }
