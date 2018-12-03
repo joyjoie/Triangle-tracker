@@ -2,11 +2,14 @@
 #### By Joy King'oo
 ## Description
 this project allows one to input numeric values and allows one to do calculations to determine what type of triangle it is.
-## Setup/Installation Requirements
-* Must have a modern browser
-* Must have a text editor
-* Must have a github account
-* Must fork clone project to my repository
+## Steps to follow
+* Input first number
+* Add the second number in the second input box
+* Add a third number to the third input box
+* Press submit button to get whether the triangle is equilateral isosceles or scalene.
+* Press reset to clear the values
+
+
 ## Known Bugs
 No known bugs
 ##Links
